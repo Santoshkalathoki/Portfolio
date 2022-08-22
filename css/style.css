@@ -23,11 +23,11 @@ body {
   line-height: 1.5;
   color: #ffffff;
   text-align: left;
-  background-color: #ffffff;
+  background: rgb(190, 183, 183);
 }
  
 a {
-  color: #0BCEAF;
+  color: #131414;
   text-decoration: none;
   background-color: transparent;
 }
@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6,p{
 
  
 
-/********** Template CSS ************/
+********* Template CSS ***********
 
 
 .text-stroke-header {
@@ -76,7 +76,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .navbar {
   position: relative;
-  background: rgb(110, 83, 83);
+  background: rgb(204, 204, 203);
 }
 
 .navbar a{
@@ -88,8 +88,6 @@ h1,h2,h3,h4,h5,h6,p{
   display: flex;
   justify-content: center;
   padding: 5px;
-  /* margin-left: 100px; */
-  /* background: black; */
 }
 
 #navlist li {
@@ -97,7 +95,7 @@ h1,h2,h3,h4,h5,h6,p{
   text-align: center;
   padding: 1.6em;
   font-size: 18px;
-  color: white;
+  color: rgb(77, 66, 66);
   margin-left: 200px;
 }
 
@@ -129,28 +127,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 }
 
-/* 
-
-.navbar-light .navbar-nav .nav-link {
-  padding: 25px 10px;
-  color: #343a40;
-  font-weight: 500;
-  outline: none;
-}
-
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
-  color: #0BCEAF;
-}
-
-@media (max-width: 991.98px) {
-  .navbar-light .navbar-nav .nav-link {
-    padding: 10px 0;
-  }
-}  */
-
-
-/*===================== Hero section ======================*/
+/*===================== About section ======================*/
 
 .about-img{
  margin-left: -100px;
@@ -196,7 +173,7 @@ h1,h2,h3,h4,h5,h6,p{
    }
 }
 
-/* =================== Queality ======================*/
+/* =================== Qualification ======================*/
 .ex-me{
   margin-top: 35px;
 }
@@ -204,7 +181,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* =================== Service Section ==================*/
 .service-h4{
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 
 .service-icon {
@@ -226,4 +203,8 @@ h1,h2,h3,h4,h5,h6,p{
 .service-box:hover{
   box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
  
+}
+
+#footer{
+  background-color: rgb(204, 204, 203);
 }
